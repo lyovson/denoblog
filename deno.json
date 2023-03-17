@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --unstable --watch --allow-net --allow-read --allow-env src/server.ts",
+    "dev": "deno run --unstable --watch --allow-net --allow-read --allow-env mod.ts",
     "lint": "deno lint --unstable",
     "fmt": "deno fmt --unstable"
   }
